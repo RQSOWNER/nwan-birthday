@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#090909" />
+<title>بۆ نوان | ڕۆژی لەدایکبوونت پیرۆز</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap');
+:root{--gold:#d8b66a;--gold2:#f5dfa0;--black:#090909;--muted:#b7ad99}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#282014 0%,#11100d 35%,#070707 75%);color:#f8f2e6;font-family:'Noto Sans Arabic',Tahoma,Arial,sans-serif;min-height:100vh;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#e4c77e 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(to bottom,black,transparent 80%)}
+.gold{color:var(--gold2)}.wrap{width:min(920px,92%);margin:auto}.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 0 50px;position:relative}.eyebrow{letter-spacing:3px;color:var(--gold);font-size:.78rem;margin-bottom:22px}.ornament{color:var(--gold);font-size:28px;letter-spacing:12px;margin:0 0 18px}.hero h1{font-size:clamp(3.6rem,13vw,7.8rem);line-height:1;margin:0;color:var(--gold2);font-weight:800;text-shadow:0 0 32px #c69a3b44;letter-spacing:3px}.hero h2{font-size:clamp(1.2rem,4vw,2rem);font-weight:500;margin:22px 0 12px}.hero p{color:var(--muted);font-size:1rem;line-height:2;margin:0 auto 30px;max-width:560px}.date{display:inline-flex;align-items:center;gap:10px;border:1px solid #b99855a0;border-radius:999px;padding:9px 20px;color:var(--gold2);font-size:.9rem;margin:4px 0 28px;background:#17130c88}.btn{border:1px solid var(--gold);background:linear-gradient(135deg,#f2d994,#b98b36);color:#17120a;padding:14px 28px;border-radius:999px;font:700 1rem inherit;cursor:pointer;box-shadow:0 8px 30px #c49b4433;transition:.25s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 36px #c49b4466}.hint{font-size:.75rem;color:#93866d;margin-top:16px}.section{padding:70px 0;text-align:center}.section h3{font-size:clamp(1.5rem,5vw,2.3rem);color:var(--gold2);margin:0 0 15px}.section .sub{color:var(--muted);line-height:2;margin:0 auto 30px;max-width:600px}.card{max-width:720px;margin:0 auto;border:1px solid #b9985566;border-radius:22px;padding:clamp(24px,6vw,48px);background:linear-gradient(145deg,#17140fdd,#0b0b0bee);box-shadow:0 18px 70px #0008;position:relative;overflow:hidden}.card:before{content:'✦';position:absolute;top:12px;left:20px;color:#c9a65d66;font-size:35px}.letter{font-size:1.02rem;line-height:2.25;color:#eee5d3;text-align:right;white-space:pre-line}.signature{color:var(--gold2);font-size:1.25rem;margin-top:26px;text-align:left}.hidden{display:none}.reveal{animation:rise .8s ease both}@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.divider{color:var(--gold);letter-spacing:10px;margin:24px 0}.footer{text-align:center;color:#8e826a;font-size:.78rem;padding:30px 0 45px}.spark{position:fixed;bottom:-30px;color:var(--gold2);opacity:0;pointer-events:none;animation:floatUp 7s linear forwards;text-shadow:0 0 12px #e5c477}@keyframes floatUp{0%{transform:translateY(0) scale(.6) rotate(0);opacity:0}15%{opacity:.75}100%{transform:translateY(-110vh) scale(1.3) rotate(35deg);opacity:0}}
+@media(max-width:520px){.hero{min-height:92svh}.card{border-radius:16px}.letter{font-size:.95rem}}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+ <div class="wrap">
+  <div class="ornament">✦ ✧ ✦</div>
+  <div class="eyebrow">بۆ کەسێکی تایبەت</div>
+  <h1>NWAN</h1>
+  <h2>ئەمڕۆ ڕۆژی تۆیە، نوان ❤️</h2>
+  <p>هەندێک کەس بە هاتنە ژیانمانەوە، ڕۆژەکانمان جوانتر دەکەن… ئەم پەڕەیەش تەنها بۆ تۆیە.</p>
+  <div class="date">✧ &nbsp; ١٢ی تشرینی دووەم &nbsp; ✧</div><br>
+  <button class="btn" id="openBtn">کردنەوەی سورپرایزەکەم ✨</button>
+  <div class="hint">کلیک لەسەر دوگمەکە بکە</div>
+ </div>
+</section>
+<section class="section hidden" id="message">
+ <div class="wrap reveal">
+  <div class="divider">✦ ✧ ✦</div>
+  <h3>نامەیەک بۆ تۆ، نوان</h3>
+  <p class="sub">وشەکان هەموو ئەو هەستانە ناگرنەوە، بەڵام دەمەوێت ئەم چەند دێڕە بۆت بمێننەوە.</p>
+  <div class="card">
+   <div class="letter">نوانی خۆشەویست،
+
+ڕۆژی لەدایکبوونت پیرۆز بێت. ❤️
+
+هیوام وایە ساڵی نوێی تەمەنت پڕ بێت لە خەندەی ڕاستەقینە، دڵخۆشی، ئارامی و ئەو هەموو شتانەی دڵت ئارەزوویان دەکات.
+
+لەوانەیە ئەمڕۆ لە تەنیشتت نەبم و نەتوانم ئەم ڕۆژە لەگەڵت بەسەر ببەم، بەڵام دووری ناتوانێت گرنگی تۆ کەم بکاتەوە. دەمەوێت بزانیت کەسێک هەیە لە شوێنێکی دوورەوە بیرت دەکاتەوە و ئارەزووی خۆشترین ڕۆژەکانی بۆ دەخوازێت.
+
+سوپاس بۆ ئەوەی هەیت. هیوادارم هەمیشە پێبکەنیت و هەموو خەونە جوانەکانت ببنە ڕاستی.
+
+ڕۆژی لەدایکبوونت پیرۆز، نوان. 🌹</div>
+   <div class="signature">بە هەموو دڵمەوە، ❤️</div>
+  </div>
+  <div class="divider">✦ ✧ ✦</div>
+  <h3>هەمیشە شایانی جوانترین شتیت</h3>
+  <p class="sub">با ئەم ساڵە ببێتە دەستپێکی یادگارییە جوانەکانت. ڕۆژەکەت پڕ لە خۆشی بێت. 🖤</p>
+ </div>
+</section>
+</main>
+<footer class="footer">بە خۆشەویستی و بیرکردنەوەیەکی تایبەت بۆ نوان &nbsp; ✦</footer>
+<script>
+const btn=document.getElementById('openBtn');const msg=document.getElementById('message');
+btn.addEventListener('click',()=>{msg.classList.remove('hidden');msg.scrollIntoView({behavior:'smooth'});btn.textContent='سورپرایزەکەت کرایەوە ❤️';btn.disabled=true;for(let i=0;i<28;i++){setTimeout(()=>{const s=document.createElement('span');s.className='spark';s.textContent=['✦','♥','✧','❀'][Math.floor(Math.random()*4)];s.style.left=Math.random()*100+'vw';s.style.fontSize=(12+Math.random()*20)+'px';s.style.animationDuration=(5+Math.random()*4)+'s';document.body.appendChild(s);setTimeout(()=>s.remove(),9500)},i*110)}});
+</script>
+</body>
+</html>
